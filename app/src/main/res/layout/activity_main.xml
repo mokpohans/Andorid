@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/BATANG"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <ImageButton
         android:id="@+id/logic_explain_btn"
@@ -39,20 +39,24 @@
 
     <ImageButton
         android:id="@+id/and_btn"
-        android:layout_width="125dp"
+        android:layout_width="0dp"
         android:layout_height="125dp"
+        android:layout_marginStart="144dp"
         android:layout_marginTop="25dp"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintEnd_toStartOf="@+id/nand_btn"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logic_explain_btn"
-        app:srcCompat="@drawable/ANDBUTTON"
-        tools:layout_editor_absoluteX="144dp" />
+        app:srcCompat="@drawable/ANDBUTTON" />
 
     <ImageButton
         android:id="@+id/nand_btn"
-        android:layout_width="125dp"
+        android:layout_width="0dp"
         android:layout_height="125dp"
         android:layout_marginTop="25dp"
-        android:layout_marginEnd="7dp"
+        android:layout_marginEnd="6dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/and_btn"
         app:layout_constraintTop_toBottomOf="@+id/logic_explain_btn"
         app:srcCompat="@drawable/NANDBUTTON" />
 

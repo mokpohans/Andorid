@@ -3,17 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/kmg38/OneDrive/SchoolMobile/Andorid/app/src/main/res/layout/activity_andactivity.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/kmg38/OneDrive/SchoolMobile/Andorid/app/src/main/res/layout/activity_bufferactivity.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/kmg38/OneDrive/SchoolMobile/Andorid/app/src/main/res/layout/activity_curtain.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/kmg38/OneDrive/SchoolMobile/Andorid/app/src/main/res/layout/activity_explain.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/kmg38/OneDrive/SchoolMobile/Andorid/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/kmg38/OneDrive/SchoolMobile/Andorid/app/src/main/res/layout/activity_nandactivity.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/kmg38/OneDrive/SchoolMobile/Andorid/app/src/main/res/layout/activity_noractivity.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/kmg38/OneDrive/SchoolMobile/Andorid/app/src/main/res/layout/activity_notactivity.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/kmg38/OneDrive/SchoolMobile/Andorid/app/src/main/res/layout/activity_oractivity.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/kmg38/OneDrive/SchoolMobile/Andorid/app/src/main/res/layout/activity_xnoractivity.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/kmg38/OneDrive/SchoolMobile/Andorid/app/src/main/res/layout/activity_xoractivity.xml" value="0.36614583333333334" />
+        <entry key="..\:/AS_github/Andorid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.25" />
+        <entry key="..\:/AS_github/Andorid/app/src/main/res/layout/activity_andactivity.xml" value="0.21875" />
+        <entry key="..\:/AS_github/Andorid/app/src/main/res/layout/activity_bufferactivity.xml" value="0.21875" />
+        <entry key="..\:/AS_github/Andorid/app/src/main/res/layout/activity_curtain.xml" value="0.21875" />
+        <entry key="..\:/AS_github/Andorid/app/src/main/res/layout/activity_explain.xml" value="0.21875" />
+        <entry key="..\:/AS_github/Andorid/app/src/main/res/layout/activity_main.xml" value="0.23385416666666667" />
       </map>
     </option>
   </component>
