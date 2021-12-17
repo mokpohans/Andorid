@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".ExplainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NORActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BUFFERActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NOTActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ORActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XORActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NANDActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ANDActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XNORActivity"
+            android:exported="false" />
+        <activity
             android:name=".CurtainActivity"
             android:exported="false" />
         <activity
