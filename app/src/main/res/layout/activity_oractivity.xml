@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/BATANG"
+    android:background="@drawable/batang"
     tools:context=".ORActivity">
 
     <ImageButton
@@ -14,7 +14,7 @@
         android:layout_marginStart="74dp"
         android:layout_marginTop="45dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -28,7 +28,7 @@
         android:layout_marginTop="45dp"
         android:layout_marginEnd="79dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/or_switchbtn_1"
@@ -43,7 +43,7 @@
         android:layout_marginEnd="146dp"
         android:layout_marginBottom="46dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,7 +58,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/or_switchbtn_1"
-        app:srcCompat="@drawable/OR" />
+        app:srcCompat="@drawable/or" />
 
     <ImageButton
         android:id="@+id/or_needex"
@@ -68,7 +68,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="286dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/or_symbol"
         app:layout_constraintEnd_toEndOf="parent"

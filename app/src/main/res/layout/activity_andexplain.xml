@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/BATANG"
+    android:background="@drawable/batang"
     tools:context=".ANDexplainActivity">
 
     <ImageView
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/EXFORAND" />
+        app:srcCompat="@drawable/batang" />
 
     <ImageButton
         android:id="@+id/and_back"
@@ -28,7 +28,7 @@
         android:layout_marginEnd="35dp"
         android:layout_marginBottom="640dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/and_explain"
         app:layout_constraintEnd_toEndOf="@+id/and_explain"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/BATANG"
+    android:background="@drawable/batang"
     tools:context=".MainActivity">
 
     <ImageButton
@@ -14,7 +14,7 @@
         android:layout_marginTop="14dp"
         android:layout_marginEnd="9dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/logic_icon"
@@ -27,11 +27,11 @@
         android:layout_height="110dp"
         android:layout_marginTop="14dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/APPICON" />
+        app:srcCompat="@drawable/appicon" />
 
     <ImageButton
         android:id="@+id/xnor_btn"
@@ -40,11 +40,11 @@
         android:layout_marginStart="7dp"
         android:layout_marginTop="25dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logic_icon"
-        app:srcCompat="@drawable/XNORBUTTON" />
+        app:srcCompat="@drawable/xnorbutton" />
 
     <ImageButton
         android:id="@+id/and_btn"
@@ -54,12 +54,12 @@
         android:layout_marginTop="25dp"
         android:layout_marginEnd="11dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toStartOf="@+id/nand_btn"
         app:layout_constraintStart_toEndOf="@+id/xnor_btn"
         app:layout_constraintTop_toBottomOf="@+id/logic_explain_btn"
-        app:srcCompat="@drawable/ANDBUTTON" />
+        app:srcCompat="@drawable/andbutton" />
 
     <ImageButton
         android:id="@+id/nand_btn"
@@ -68,11 +68,11 @@
         android:layout_marginTop="25dp"
         android:layout_marginEnd="7dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logic_explain_btn"
-        app:srcCompat="@drawable/NANDBUTTON" />
+        app:srcCompat="@drawable/nandbutton" />
 
     <ImageButton
         android:id="@+id/xor_btn"
@@ -82,12 +82,12 @@
         android:layout_marginTop="30dp"
         android:layout_marginBottom="35dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/not_btn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/xnor_btn"
-        app:srcCompat="@drawable/XORBUTTON" />
+        app:srcCompat="@drawable/xorbutton" />
 
     <ImageButton
         android:id="@+id/practice_btn"
@@ -98,13 +98,13 @@
         android:layout_marginEnd="11dp"
         android:layout_marginBottom="35dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/buffer_btn"
         app:layout_constraintEnd_toStartOf="@+id/or_btn"
         app:layout_constraintStart_toEndOf="@+id/xor_btn"
         app:layout_constraintTop_toBottomOf="@+id/and_btn"
-        app:srcCompat="@drawable/PRACTICE" />
+        app:srcCompat="@drawable/practice" />
 
     <ImageButton
         android:id="@+id/or_btn"
@@ -114,12 +114,12 @@
         android:layout_marginEnd="7dp"
         android:layout_marginBottom="35dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/nor_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nand_btn"
-        app:srcCompat="@drawable/ORBUTTON" />
+        app:srcCompat="@drawable/orbutton" />
 
     <ImageButton
         android:id="@+id/not_btn"
@@ -128,11 +128,11 @@
         android:layout_marginStart="7dp"
         android:layout_marginBottom="143dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/NOTBUTTON" />
+        app:srcCompat="@drawable/notbutton" />
 
     <ImageButton
         android:id="@+id/buffer_btn"
@@ -142,12 +142,12 @@
         android:layout_marginEnd="11dp"
         android:layout_marginBottom="143dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/nor_btn"
         app:layout_constraintStart_toEndOf="@+id/not_btn"
-        app:srcCompat="@drawable/BUFFERBUTTON" />
+        app:srcCompat="@drawable/bufferbutton" />
 
     <ImageButton
         android:id="@+id/nor_btn"
@@ -156,10 +156,10 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="140dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/NORBUTTON" />
+        app:srcCompat="@drawable/norbutton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

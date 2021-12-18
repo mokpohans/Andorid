@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/BATANG"
+    android:background="@drawable/batang"
     tools:context=".XNORexplainActivity">
 
     <ImageView
@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/EXFORXNOR" />
+        app:srcCompat="@drawable/exforxnor" />
 
     <ImageButton
         android:id="@+id/xnor_back"
@@ -26,7 +26,7 @@
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="635dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/xnor_explain"
         app:layout_constraintEnd_toEndOf="@+id/xnor_explain"

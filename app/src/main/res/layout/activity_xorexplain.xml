@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/BATANG"
+    android:background="@drawable/batang"
     tools:context=".XORexplainActivity">
 
     <ImageView
@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/EXFORXOR" />
+        app:srcCompat="@drawable/exforxor" />
 
     <ImageButton
         android:id="@+id/xor_back"
@@ -26,7 +26,7 @@
         android:layout_marginEnd="49dp"
         android:layout_marginBottom="631dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/BATANG"
+        android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/xor_explain"
         app:layout_constraintEnd_toEndOf="@+id/xor_explain"
