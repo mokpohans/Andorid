@@ -13,6 +13,9 @@
         android:layout_height="120dp"
         android:layout_marginStart="74dp"
         android:layout_marginTop="45dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/BATANG"
+        android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/btn0" />
@@ -24,13 +27,16 @@
         android:layout_marginStart="19dp"
         android:layout_marginTop="45dp"
         android:layout_marginEnd="79dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/BATANG"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/nor_switchbtn_1"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/btn0" />
 
-    <ImageButton
-        android:id="@+id/nor_switchbtn_3"
+    <ImageView
+        android:id="@+id/nor_resultbtn"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginStart="145dp"
@@ -45,9 +51,25 @@
         android:id="@+id/nor_symbol"
         android:layout_width="410dp"
         android:layout_height="400dp"
-        app:layout_constraintBottom_toTopOf="@+id/nor_switchbtn_3"
+        app:layout_constraintBottom_toTopOf="@+id/nor_resultbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nor_switchbtn_1"
         app:srcCompat="@drawable/NOR" />
+
+    <ImageButton
+        android:id="@+id/nor_needex"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="286dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/BATANG"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/nor_symbol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nor_symbol"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/questionsymbol" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,6 +11,9 @@
         android:id="@+id/back_explain"
         android:layout_width="60dp"
         android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/BATANG"
+        android:scaleType="fitCenter"
         app:srcCompat="@drawable/backward"
         tools:layout_editor_absoluteX="280dp"
         tools:layout_editor_absoluteY="58dp" />
