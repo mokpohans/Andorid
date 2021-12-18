@@ -7,14 +7,27 @@
     android:background="@drawable/batang"
     tools:context=".BUFFERActivity">
 
+    <ImageView
+        android:id="@+id/buffer_symbol"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toTopOf="@+id/buffer_resultbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buffer_switchbtn_1"
+        app:srcCompat="@drawable/buffer" />
+
     <ImageButton
         android:id="@+id/buffer_switchbtn_1"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="44dp"
+        android:layout_marginBottom="1dp"
         android:adjustViewBounds="true"
         android:background="@drawable/batang"
         android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/buffer_symbol"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -22,30 +35,22 @@
 
     <ImageView
         android:id="@+id/buffer_resultbtn"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginStart="145dp"
         android:layout_marginEnd="146dp"
         android:layout_marginBottom="46dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buffer_symbol"
         app:srcCompat="@drawable/btn0" />
-
-    <ImageView
-        android:id="@+id/buffer_symbol"
-        android:layout_width="410dp"
-        android:layout_height="400dp"
-        app:layout_constraintBottom_toTopOf="@+id/buffer_resultbtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buffer_switchbtn_1"
-        app:srcCompat="@drawable/buffer" />
 
     <ImageButton
         android:id="@+id/buffer_needex"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:layout_marginStart="298dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="288dp"
@@ -54,7 +59,9 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/buffer_symbol"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/buffer_symbol"
         app:layout_constraintTop_toTopOf="@+id/buffer_symbol"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.32"
         app:srcCompat="@drawable/questionsymbol" />
 </androidx.constraintlayout.widget.ConstraintLayout>
