@@ -50,13 +50,16 @@
         android:id="@+id/and_btn"
         android:layout_width="125dp"
         android:layout_height="125dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="25dp"
+        android:layout_marginEnd="11dp"
         android:adjustViewBounds="true"
         android:background="@drawable/BATANG"
         android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/nand_btn"
+        app:layout_constraintStart_toEndOf="@+id/xnor_btn"
         app:layout_constraintTop_toBottomOf="@+id/logic_explain_btn"
-        app:srcCompat="@drawable/ANDBUTTON"
-        tools:layout_editor_absoluteX="144dp" />
+        app:srcCompat="@drawable/ANDBUTTON" />
 
     <ImageButton
         android:id="@+id/nand_btn"
