@@ -13,41 +13,48 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button.OnClickListener onClickListener = new Button.OnClickListener() {
+        ImageButton.OnClickListener onClickListener = new ImageButton.OnClickListener() {
             public void onClick(View view) {
                 switch (view.getId()) {
-                    case R.id.and_btn:{
+                    case R.id.and_btn:
                         Intent intent = new Intent(MainActivity.this, ANDActivity.class);
                         startActivity(intent);
-                    }
-                    case R.id.buffer_btn:{
-                        Intent intent = new Intent(MainActivity.this, BUFFERActivity.class);
-                        startActivity(intent);
-                    }
-                    case R.id.or_btn:{
-                        Intent intent = new Intent(MainActivity.this, ORActivity.class);
-                        startActivity(intent);
-                    }
-                    case R.id.nor_btn:{
-                        Intent intent = new Intent(MainActivity.this, NORActivity.class);
-                        startActivity(intent);
-                    }
-                    case R.id.nand_btn:{
-                        Intent intent = new Intent(MainActivity.this, NANDActivity.class);
-                        startActivity(intent);
-                    }
-                    case R.id.not_btn:{
-                        Intent intent = new Intent(MainActivity.this, NOTActivity.class);
-                        startActivity(intent);
-                    }
-                    case R.id.xnor_btn:{
-                        Intent intent = new Intent(MainActivity.this, XNORActivity.class);
-                        startActivity(intent);
-                    }
-                    case R.id.xor_btn:{
-                        Intent intent = new Intent(MainActivity.this, XORActivity.class);
-                        startActivity(intent);
-                    }
+                        break;
+
+                    case R.id.buffer_btn:
+                        Intent intent_1 = new Intent(MainActivity.this, BUFFERActivity.class);
+                        startActivity(intent_1);
+
+                    case R.id.or_btn:
+                        Intent intent_2 = new Intent(MainActivity.this, ORActivity.class);
+                        startActivity(intent_2);
+                        break;
+
+                    case R.id.nor_btn:
+                        Intent intent_3 = new Intent(MainActivity.this, NORActivity.class);
+                        startActivity(intent_3);
+                        break;
+
+                    case R.id.nand_btn:
+                        Intent intent_4 = new Intent(MainActivity.this, NANDActivity.class);
+                        startActivity(intent_4);
+                        break;
+
+                    case R.id.not_btn:
+                        Intent intent_5 = new Intent(MainActivity.this, NOTActivity.class);
+                        startActivity(intent_5);
+                        break;
+
+                    case R.id.xnor_btn:
+                        Intent intent_6 = new Intent(MainActivity.this, XNORActivity.class);
+                        startActivity(intent_6);
+                        break;
+
+                    case R.id.xor_btn:
+                        Intent intent_7 = new Intent(MainActivity.this, XORActivity.class);
+                        startActivity(intent_7);
+                        break;
+
                 }
             }
         };
