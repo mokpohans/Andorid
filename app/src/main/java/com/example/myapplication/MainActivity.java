@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.buffer_btn:
                         Intent intent_1 = new Intent(MainActivity.this, BUFFERActivity.class);
                         startActivity(intent_1);
+                        break;
 
                     case R.id.or_btn:
                         Intent intent_2 = new Intent(MainActivity.this, ORActivity.class);

@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -28,33 +29,37 @@ public class ANDActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 switch (view.getId()){
-                    case R.id.and_switchbtn_1:{
-                        if(input_1 == true){
-                            num_1.setImageResource(R.drawable.btn1);
-                            input_1 = false;
+                    case R.id.and_needex:{
+                        Intent intent = new Intent(ANDActivity.this, ANDexplainActivity.class);
+                        startActivity(intent);
 
+                    }
+                    case R.id.and_switchbtn_1:{
+                        if(input_1 == false){
+                            num_1.setImageResource(R.drawable.btn1);
+                            input_1 = true;
                         }
                         else{
                             num_1.setImageResource(R.drawable.btn0);
-                            if (input_1 == true && input_2 == true){
-                                result.setImageResource(R.drawable.btn1);
-                            }
-                            else {
-                                result.setImageResource(R.drawable.btn0);
-                            }
-                            input_1 = true;
                         }
+                        break;
                     }
                     case R.id.and_switchbtn_2:{
-                        if(input_2 == true){
+                        if(input_2 == false){
                             num_2.setImageResource(R.drawable.btn1);
-                            input_2 = false;
+                            input_2 = true;
                         }
                         else{
                             num_2.setImageResource(R.drawable.btn0);
-                            input_2 = true;
                         }
+                        break;
                     }
+                }
+                if (input_1 == true && input_2 == true){
+                    result.setImageResource(R.drawable.btn1);
+                }
+                else {
+                    result.setImageResource(R.drawable.btn0);
                 }
             }
         });
