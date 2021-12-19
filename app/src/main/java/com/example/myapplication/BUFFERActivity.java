@@ -16,7 +16,7 @@ public class BUFFERActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bufferactivity);
-        result = findViewById(R.id.and_resultbtn);
+        result = findViewById(R.id.buffer_resultbtn);
         input = false;
         output = false;
         ImageButton num_1 = (ImageButton) findViewById(R.id.buffer_switchbtn_1) ;

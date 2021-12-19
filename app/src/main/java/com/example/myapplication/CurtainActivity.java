@@ -22,7 +22,7 @@ public class CurtainActivity extends AppCompatActivity {
                 finish();
 
             }
-        }, 3000);
+        }, 2500);
 
     }
 }

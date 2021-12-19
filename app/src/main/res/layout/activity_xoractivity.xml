@@ -14,11 +14,11 @@
         app:layout_constraintBottom_toTopOf="@+id/xor_resultbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nand_switchbtn_1"
+        app:layout_constraintTop_toBottomOf="@+id/xor_switchbtn_1"
         app:srcCompat="@drawable/xor" />
 
     <ImageButton
-        android:id="@+id/nand_switchbtn_1"
+        android:id="@+id/xor_switchbtn_1"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="74dp"
@@ -28,13 +28,13 @@
         android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/xor_symbol"
-        app:layout_constraintEnd_toStartOf="@+id/nand_switchbtn_2"
+        app:layout_constraintEnd_toStartOf="@+id/xor_switchbtn_2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/btn0" />
 
     <ImageButton
-        android:id="@+id/nand_switchbtn_2"
+        android:id="@+id/xor_switchbtn_2"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="19dp"
@@ -45,7 +45,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/xor_symbol"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nand_switchbtn_1"
+        app:layout_constraintStart_toEndOf="@+id/xor_switchbtn_1"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/btn0" />
 

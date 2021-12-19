@@ -28,13 +28,14 @@
         android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/nand_symbol"
-        app:layout_constraintEnd_toStartOf="@+id/xnor_switchbtn_2"
+        app:layout_constraintEnd_toStartOf="@+id/nand_switchbtn_2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/btn0" />
+        app:srcCompat="@drawable/btn0"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/xnor_switchbtn_2"
+        android:id="@+id/nand_switchbtn_2"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="19dp"
@@ -47,7 +48,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/nand_switchbtn_1"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/btn0" />
+        app:srcCompat="@drawable/btn0"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/nand_resultbtn"
@@ -60,7 +62,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nand_symbol"
-        app:srcCompat="@drawable/btn0" />
+        app:srcCompat="@drawable/btn1" />
 
     <ImageButton
         android:id="@+id/nand_needex"
@@ -79,5 +81,6 @@
         app:layout_constraintStart_toStartOf="@+id/nand_symbol"
         app:layout_constraintTop_toTopOf="@+id/nand_symbol"
         app:layout_constraintVertical_bias="0.46"
-        app:srcCompat="@drawable/questionsymbol" />
+        app:srcCompat="@drawable/questionsymbol"
+        tools:ignore="SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

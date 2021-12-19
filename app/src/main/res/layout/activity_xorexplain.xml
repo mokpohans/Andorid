@@ -17,21 +17,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/exforxor" />
 
-    <ImageButton
-        android:id="@+id/xor_back"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="302dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="49dp"
-        android:layout_marginBottom="631dp"
-        android:adjustViewBounds="true"
-        android:background="@drawable/batang"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="@+id/xor_explain"
-        app:layout_constraintEnd_toEndOf="@+id/xor_explain"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/xor_explain"
-        app:layout_constraintTop_toTopOf="@+id/xor_explain"
-        app:srcCompat="@drawable/backward" />
 </androidx.constraintlayout.widget.ConstraintLayout>

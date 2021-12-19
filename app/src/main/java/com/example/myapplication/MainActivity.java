@@ -56,6 +56,9 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent_7);
                         break;
 
+                    case R.id.logic_explain_btn:
+                        Intent intent_8 = new Intent(MainActivity.this, ExplainActivity.class);
+                        startActivity(intent_8);
                 }
             }
         };
@@ -75,5 +78,7 @@ public class MainActivity extends AppCompatActivity {
         xnor.setOnClickListener(onClickListener) ;
         ImageButton xor = (ImageButton) findViewById(R.id.xor_btn) ;
         xor.setOnClickListener(onClickListener) ;
+        ImageButton exlpain = (ImageButton) findViewById(R.id.logic_explain_btn) ;
+        exlpain.setOnClickListener(onClickListener) ;
     }
 }

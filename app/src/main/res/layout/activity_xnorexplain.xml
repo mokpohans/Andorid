@@ -17,20 +17,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/exforxnor" />
 
-    <ImageButton
-        android:id="@+id/xnor_back"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="311dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="635dp"
-        android:adjustViewBounds="true"
-        android:background="@drawable/batang"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="@+id/xnor_explain"
-        app:layout_constraintEnd_toEndOf="@+id/xnor_explain"
-        app:layout_constraintStart_toStartOf="@+id/xnor_explain"
-        app:layout_constraintTop_toTopOf="@+id/xnor_explain"
-        app:srcCompat="@drawable/backward" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,21 +17,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/exforand" />
 
-    <ImageButton
-        android:id="@+id/and_back"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="316dp"
-        android:layout_marginTop="31dp"
-        android:layout_marginEnd="35dp"
-        android:layout_marginBottom="640dp"
-        android:adjustViewBounds="true"
-        android:background="@drawable/batang"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="@+id/and_explain"
-        app:layout_constraintEnd_toEndOf="@+id/and_explain"
-        app:layout_constraintStart_toStartOf="@+id/and_explain"
-        app:layout_constraintTop_toTopOf="@+id/and_explain"
-        app:srcCompat="@drawable/backward" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

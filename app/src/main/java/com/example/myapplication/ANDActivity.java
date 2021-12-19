@@ -24,7 +24,7 @@ public class ANDActivity extends AppCompatActivity {
         ImageButton num_2 = (ImageButton) findViewById(R.id.and_switchbtn_2) ;
         ImageButton needex = (ImageButton) findViewById(R.id.and_needex) ;
 
-        ImageButton.OnClickListener onClickListener = new View.OnClickListener(){
+        ImageButton.OnClickListener onClickListener = new ImageButton.OnClickListener(){
             @Override
             public void onClick(View view){
                 switch (view.getId()){

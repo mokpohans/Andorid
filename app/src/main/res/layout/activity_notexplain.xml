@@ -15,23 +15,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/exfornor" />
+        app:srcCompat="@drawable/exfornot" />
 
-    <ImageButton
-        android:id="@+id/not_back"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="298dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="53dp"
-        android:layout_marginBottom="631dp"
-        android:adjustViewBounds="true"
-        android:background="@drawable/batang"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="@+id/not_explain"
-        app:layout_constraintEnd_toEndOf="@+id/not_explain"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/not_explain"
-        app:layout_constraintTop_toTopOf="@+id/not_explain"
-        app:srcCompat="@drawable/backward" />
 </androidx.constraintlayout.widget.ConstraintLayout>
