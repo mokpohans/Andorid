@@ -32,7 +32,8 @@
         app:layout_constraintEnd_toStartOf="@+id/and_switchbtn_2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/btn0" />
+        app:srcCompat="@drawable/btn0"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/and_switchbtn_2"
@@ -45,10 +46,11 @@
         android:background="@drawable/batang"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/and_symbol"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/and_switchbtn_1"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/btn0" />
+        app:srcCompat="@drawable/btn0"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/and_resultbtn"
@@ -80,5 +82,6 @@
         app:layout_constraintStart_toStartOf="@+id/and_symbol"
         app:layout_constraintTop_toTopOf="@+id/and_symbol"
         app:layout_constraintVertical_bias="0.11"
-        app:srcCompat="@drawable/questionsymbol" />
+        app:srcCompat="@drawable/questionsymbol"
+        tools:ignore="SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

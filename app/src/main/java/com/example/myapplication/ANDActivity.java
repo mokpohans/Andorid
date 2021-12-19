@@ -9,7 +9,6 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class ANDActivity extends AppCompatActivity {
-    ImageButton num_1, num_2, help;
     ImageView result;
     boolean input_1, input_2, output;
 
@@ -17,21 +16,22 @@ public class ANDActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_andactivity);
-        num_1 = findViewById(R.id.and_switchbtn_1);
-        num_2 = findViewById(R.id.and_switchbtn_2);
-        help = findViewById(R.id.and_needex);
         result = findViewById(R.id.and_resultbtn);
         input_1 = false;
         input_2 = false;
         output = false;
+        ImageButton num_1 = (ImageButton) findViewById(R.id.and_switchbtn_1) ;
+        ImageButton num_2 = (ImageButton) findViewById(R.id.and_switchbtn_2) ;
+        ImageButton needex = (ImageButton) findViewById(R.id.and_needex) ;
 
-        num_1.setOnClickListener(new View.OnClickListener(){
+        ImageButton.OnClickListener onClickListener = new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 switch (view.getId()){
                     case R.id.and_needex:{
                         Intent intent = new Intent(ANDActivity.this, ANDexplainActivity.class);
                         startActivity(intent);
+                        break;
 
                     }
                     case R.id.and_switchbtn_1:{
@@ -41,6 +41,7 @@ public class ANDActivity extends AppCompatActivity {
                         }
                         else{
                             num_1.setImageResource(R.drawable.btn0);
+                            input_1 = false;
                         }
                         break;
                     }
@@ -51,6 +52,7 @@ public class ANDActivity extends AppCompatActivity {
                         }
                         else{
                             num_2.setImageResource(R.drawable.btn0);
+                            input_2 = false;
                         }
                         break;
                     }
@@ -62,6 +64,12 @@ public class ANDActivity extends AppCompatActivity {
                     result.setImageResource(R.drawable.btn0);
                 }
             }
-        });
+        };
+
+        num_1.setOnClickListener(onClickListener) ;
+
+        num_2.setOnClickListener(onClickListener) ;
+
+        needex.setOnClickListener(onClickListener) ;
     }
 }
